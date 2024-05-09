@@ -51,6 +51,7 @@ int main(){
     cin >> s;
     struct node *root = newNode(s); // Create a root with data of full expression
     root = divide(root);
+    // cout << root->data;
     int n;
     cin >> n;
     while(n--){
